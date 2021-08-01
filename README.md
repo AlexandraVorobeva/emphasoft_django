@@ -19,6 +19,18 @@ REST API application for users with authentication.<br>
   -Change or delete any information about users<br>
   -Create new users<br>
 
+### API endpoints:<br>
+| requests | url | description  |
+| ------- | --- | --- |
+| GET | /api/all | list of all users |
+| GET | /api/user/<id> | user info by id |
+| GET | /auth/users/me | info about user |
+| POST | /auth/users | create new user |
+| POST | /auth/jwt/create/ | create new token |
+| POST | /auth/jwt/refresh/ | refresh old token |
+
+
+
 
 ## Installation
 ### Clone the repo:<br>
