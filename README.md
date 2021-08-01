@@ -41,12 +41,18 @@ $ python3 manage.py runserver<br>
 ### Run tests:<br>
 $ pytest<br>
 
+### API from Postman
+You can use desktop app Postman fot rest requests.<br>
+Run app in command line:<br>
+$ python3 manage.py runserver<br>
+Than use Postman for POST requests for new user creation<br>
+![Screenshot]()
+
 
 ### API from the browser:
 You can work on the API directly in your browser
 
-
-http://127.0.0.1:8000/docs <br>
-![Screenshot](https://github.com/SparklingAcidity/Emphasoft-test/blob/in_process/img_for_readme/Снимок%20экрана%202021-07-24%20в%2013.47.32.png) <br>
-or http://127.0.0.1:8000/redoc
-![Screenshot](https://github.com/SparklingAcidity/Emphasoft-test/blob/in_process/img_for_readme/Снимок%20экрана%202021-07-25%20в%2013.09.24.png)
+http://127.0.0.1:8000/auth/users/ <br>
+![Screenshot]() <br>
+or http://127.0.0.1:8001/auth/jwt/create
+![Screenshot]()
