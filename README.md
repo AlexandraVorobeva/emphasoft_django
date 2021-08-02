@@ -22,8 +22,10 @@ REST API application for users with authentication.<br>
 ### API endpoints:<br>
 | requests | url | description  |
 | ------- | --- | --- |
-| GET | /api/all | list of all users |
-| GET | /api/user/<id> | user info by id |
+| GET | /users/all | list of all users |
+| GET | /users/< id> | user info by id |
+| DELETE | /users/< id> | delete user by id |
+| PUT | /users/< id> | create user by id |
 | GET | /auth/users/me | info about user |
 | POST | /auth/users | create new user |
 | POST | /auth/jwt/create/ | create new token |
