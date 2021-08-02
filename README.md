@@ -49,6 +49,7 @@ $ source venv/bin/activate<br>
 $ pip install -r requirements.txt<br>
 
 ### Make migrations
+$ python3 manage.py makemigrations<br>
 $ python manage.py migrate<br>
 
 ### Run the sample server:<br>
