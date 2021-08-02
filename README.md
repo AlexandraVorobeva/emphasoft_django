@@ -25,7 +25,7 @@ REST API application for users with authentication.<br>
 | GET | /users/all | list of all users |
 | GET | /users/< id> | user info by id |
 | DELETE | /users/< id> | delete user by id |
-| PUT | /users/< id> | create user by id |
+| PUT | /users/< id> | change info about user by id |
 | GET | /auth/users/me | info about user |
 | POST | /auth/users | create new user |
 | POST | /auth/jwt/create/ | create new token |
