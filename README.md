@@ -63,20 +63,20 @@ You can use desktop app Postman fot rest requests.<br>
 Run app in command line:<br>
 $ python3 manage.py runserver<br>
 Than use Postman for POST requests for creating a new user:<br>
-![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/in_process/img_for_readme/Снимок%20экрана%202021-08-01%20в%2021.02.09.png)
-![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/in_process/img_for_readme/Снимок%20экрана%202021-08-01%20в%2021.02.29.png)
+![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/main/img_for_readme/Снимок%20экрана%202021-08-01%20в%2021.02.09.png)
+![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/main/img_for_readme/Снимок%20экрана%202021-08-01%20в%2021.02.29.png)
 Than create new token for authentication:
-![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/in_process/img_for_readme/Снимок%20экрана%202021-08-01%20в%2021.03.17.png)
+![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/main/img_for_readme/Снимок%20экрана%202021-08-01%20в%2021.03.17.png)
  
 With valid token you can get list of all user:
-![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/in_process/img_for_readme/Снимок%20экрана%202021-08-01%20в%2021.04.00.png)
+![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/main/img_for_readme/Снимок%20экрана%202021-08-01%20в%2021.04.00.png)
 Or just info about yourself:
-![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/in_process/img_for_readme/Снимок%20экрана%202021-08-01%20в%2021.04.51.png)
+![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/main/img_for_readme/Снимок%20экрана%202021-08-01%20в%2021.04.51.png)
 
 ### API from the browser:
 You can work on the API directly in your browser
 
 http://127.0.0.1:8000/auth/users/ <br>
-![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/in_process/img_for_readme/Снимок%20экрана%202021-08-01%20в%2020.52.13.png) <br>
+![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/main/img_for_readme/Снимок%20экрана%202021-08-01%20в%2020.52.13.png) <br>
 or http://127.0.0.1:8001/auth/jwt/create
-![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/in_process/img_for_readme/Снимок%20экрана%202021-08-01%20в%2020.53.39.png)
+![Screenshot](https://github.com/SparklingAcidity/emphasoft_django/blob/main/img_for_readme/Снимок%20экрана%202021-08-01%20в%2020.53.39.png)
