@@ -57,7 +57,7 @@ $ python3 manage.py runserver<br>
 
 
 ### Run tests:<br>
-$ pytest<br>
+$ python manage.py test<br>
 
 ### API from Postman
 You can use desktop app Postman fot rest requests.<br>
