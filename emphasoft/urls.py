@@ -17,12 +17,8 @@ from django.urls import include, path
 from django.contrib import admin
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-
-    # path to djoser end points
-    path('auth/', include('djoser.urls')),
-    path('auth/', include('djoser.urls.jwt')),
-
-    # path to our account's app endpoints
-    path("api/user/", include("users.urls"))
+    path("admin/", admin.site.urls),
+    path("auth/", include("djoser.urls")),
+    path("auth/", include("djoser.urls.jwt")),
+    path("users/", include("users.urls")),
 ]
